@@ -95,20 +95,11 @@ sub {
     top: 0.5ex;
 }
 
-/* @end */
+/* @end 1px solid black */
 
 
 /* @group Navigation/search */
 
-#portal-header {
-    position: relative;
-    z-index: 2;
-}
-
-#portal-logo {
-    display: inline-block;
-    margin: 1.375em 0;
-}
 /* removes extra space above logo in IE6 and IE7 */
 /* .ie6 and .ie7 is set on <html> by Modernizr library */
 .ie6 #portal-logo,
@@ -116,34 +107,64 @@ sub {
     margin-top: 0;
 }
 
+#portal-logo {
+    display: none;
+    margin: 1.375em 0;
+}
+
+
+#portal-top {
+width: 100%;
+background-image: url('++resource++eval.theme/images/banner.png');
+background-repeat: no-repeat;
+background-color: #3B2112;
+margin-bottom: 10px;
+}
+
+#portal-header {
+    margin-top: 0px;
+}
+
 #portal-globalnav {
     clear: both;
     font-size: 80%;
     background: #ddd;
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
-    margin: 0 0 1em 0;
+    margin: 0 0 0 0;
+    border-bottom: 1px solid #ddd;
 }
 #portal-globalnav li {
 }
 #portal-globalnav li a {
     display: inline-block;
-    padding: 0.5em 1em 1.8em 1em;
-    background: #ddd;
+    padding: 5px 10px 5px 10px;
+    background: transparent;
     min-width: 6em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
     /*border-bottom: 0.1em solid White;*/
     border-right: 0.1em solid white;
+    text-align: center;
 }
 
 #portal-globalnav .selected a,
 #portal-globalnav a:hover {
-    background: #205c90;
-    color: White;
+    background: transparent;
+    color: #D29947;
 }
 #portal-globalnav .selected a:hover {
     background: #ddd;
-    color: #205c90;
+    color: #D29947;
+}
+
+ul#portal-globalnav {
+background: url("++resource++eval.theme/images/nav_bg.png") repeat-x scroll left bottom transparent;
+border-color: #DEDEDE #DEDEDE #A3A3A3;
+border-radius: 5px 5px 5px 5px;
+border-style: solid;
+border-width: 1px;
+clear: both;
+font-weight: bold;
 }
 
 #portal-personaltools {
@@ -199,6 +220,7 @@ sub {
 
 #portal-searchbox label {
     font-weight: normal;
+    color: #fff;
 }
 
 #searchGadget {
@@ -551,3 +573,17 @@ dd.image-caption {
 }
 
 /* @end */
+
+a.fc-event,
+a.fc-event:visited {
+   color: #000 !important;
+}
+
+img.byline-portrait {
+border: 1px solid #aaa;
+box-shadow: 2px 2px 2px #CCCCCC;
+margin-right: 0.5em;
+vertical-align: middle;
+padding: 3px;
+}
+
