@@ -18,6 +18,7 @@
         <merge theme="/html/body" content="/html/body" attributes="dir"/>
         <append css:theme="body" css:content="#plone-analytics"/>
 
+
         <replace css:theme-children="#portal-personaltools-wrapper"
             css:content-children="#portal-personaltools-wrapper"/>
         <replace css:theme-children="#portal-searchbox"
@@ -37,6 +38,8 @@
 
         <replace css:theme-children="#portal-siteactions"
             css:content-children="#portal-siteactionst"/>
+
+        <before css:theme="#portal-columns" css:content="#plonesocialsuite-navigation"/>
 
     </rules>
 </rules>
