@@ -41,5 +41,7 @@
 
         <before css:theme="#portal-columns" css:content="#plonesocialsuite-navigation"/>
 
+        <after css:theme="#portal-footer" css:content="#chatpanel"/>
+
     </rules>
 </rules>
