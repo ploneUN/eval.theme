@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.0a4.dev1
+------------------
+- apply z-index for search result
+
+
 1.0a4 (unreleased)
 ------------------
 
