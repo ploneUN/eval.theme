@@ -588,3 +588,9 @@ vertical-align: middle;
 padding: 3px;
 }
 
+
+#portal-column-one .portletWrapper,
+#portal-column-two .portletWrapper{
+	margin-bottom: 20px;
+}
+
