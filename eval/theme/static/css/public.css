@@ -589,7 +589,8 @@ padding: 3px;
 }
 
 
-.portletWrapper{
+#portal-column-one .portletWrapper,
+#portal-column-two .portletWrapper{
 	margin-bottom: 20px;
 }
 
