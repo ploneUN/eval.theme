@@ -598,3 +598,8 @@ padding: 3px;
 #collective-pdfexport-pdf_download > a:nth-child(1){
 	display: none;
 }
+
+/*hide space between button in formControls*/
+.formControls input + input{
+	margin-left: 5px;
+}
