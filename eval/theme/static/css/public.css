@@ -594,8 +594,8 @@ padding: 3px;
 	margin-bottom: 20px;
 }
 
-/*hide send as pdf link*/
-#collective-pdfexport-pdf_download > a:nth-child(1){
+/*hide send/download as pdf link*/
+#collective-pdfexport-pdf_download > a{
 	display: none;
 }
 
