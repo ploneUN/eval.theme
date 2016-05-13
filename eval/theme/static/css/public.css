@@ -599,7 +599,8 @@ padding: 3px;
 	display: none;
 }
 
-/*hide space between button in formControls*/
-.formControls input + input{
-	margin-left: 5px;
+/*add space between buttons */
+.formControls + input[type=submit],
+#folderlisting-main-table input.context[type=submit]{
+  margin-right: 2px;
 }
