@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.1
+-----------------
+-release for production
+
 1.0a4.dev1
 ------------------
 - apply z-index for search result
