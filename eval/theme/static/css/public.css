@@ -604,3 +604,8 @@ padding: 3px;
 #folderlisting-main-table input.context[type=submit]{
   margin-right: 2px;
 }
+
+/*links align with the bullet points*/
+table.listing > tbody > tr > td > ul > li > a{
+    display: block;
+}
