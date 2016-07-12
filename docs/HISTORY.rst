@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.2
+---------
+-modified template
+
 1.1
 -----------------
 -release for production
