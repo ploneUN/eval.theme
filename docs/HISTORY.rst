@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.3
+----
+-modified template for nav
+
 1.2
 ---------
 -modified template
