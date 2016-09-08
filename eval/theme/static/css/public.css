@@ -609,3 +609,7 @@ padding: 3px;
 table.listing > tbody > tr > td > ul > li > a{
     display: block;
 }
+
+.portletWrapper .portlet{
+	border: 1px solid #eee;
+}
