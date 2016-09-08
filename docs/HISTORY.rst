@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.4
+----
+-modified theme css
+
 1.3
 ----
 -modified template for nav
