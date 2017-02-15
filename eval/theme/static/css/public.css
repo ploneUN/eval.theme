@@ -613,3 +613,9 @@ table.listing > tbody > tr > td > ul > li > a{
 .portletWrapper .portlet{
 	border: 1px solid #eee;
 }
+
+.template-documentviewer #viewlet-above-content-body:after{
+    display: block;
+    clear: both;
+    content: " ";
+}   
