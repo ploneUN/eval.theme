@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.5
+----
+-modified view on file contenttype with doc viewer
+
 1.4
 ----
 -modified theme css
